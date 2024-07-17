@@ -1,3 +1,6 @@
 click
 pydantic
 black
+requests
+pre-commit
+python-dotenv

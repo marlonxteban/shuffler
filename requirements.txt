@@ -4,3 +4,4 @@ black
 requests
 pre-commit
 python-dotenv
+flake8

@@ -1,6 +1,7 @@
 import requests
-from pydantic import BaseModel, Field
-from typing import List, Optional
+import re
+from pydantic import BaseModel
+from typing import List
 
 
 class ExternalUrls(BaseModel):

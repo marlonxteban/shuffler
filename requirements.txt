@@ -5,3 +5,6 @@ requests
 pre-commit
 python-dotenv
 flake8
+pytest
+pytest-mock
+pytest-cov

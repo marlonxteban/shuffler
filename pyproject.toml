@@ -25,3 +25,15 @@ shuffler = "shuffler.cli:cli"
 include = ["README.md", "LICENSE"]
 
 [tool.hatch.build.targets.wheel]
+
+[tool.pytest.ini_options]
+addopts = "--cov=shuffler --cov-report=term-missing"
+
+[tool.coverage.run]
+omit = []
+plugins = []
+
+[tool.coverage.report]
+exclude_lines = [
+    "if __name__ == .__main__.:"
+]
